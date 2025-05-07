@@ -238,3 +238,4 @@ C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.
 C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\ProjetoLivros_Home.pdb
 C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\ProjetoLivros_Home.genruntimeconfig.cache
 C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\ref\ProjetoLivros_Home.dll
+C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\ProjetoLivros_Home.sourcelink.json

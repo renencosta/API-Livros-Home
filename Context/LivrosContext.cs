@@ -120,7 +120,10 @@ namespace ProjetoLivros_Home.Context
                     .IsUnicode(false);
 
                     //entender e refazer a chave estrangeira
-                    //entity.HasOne(a => a.Usuario)
+                    entity.HasOne(a => a.Usuario)
+                    .WithMany()
+                    .HasForeignKey(a => a.UsuarioId)
+                    .OnDelete(DeleteBehavior.Cascade);
                     
                 }
 
