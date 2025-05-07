@@ -1,4 +1,6 @@
 using ProjetoLivros_Home.Context;
+using ProjetoLivros_Home.Interfaces;
+using ProjetoLivros_Home.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +17,7 @@ builder.Services.AddRazorPages();
 // dotnet ef database update
 builder.Services.AddDbContext<LivrosContext>();
 
-//builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 //builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 //builder.Services.AddScoped<ILivroRepository, LivroRepository>();
 //builder.Services.AddScoped<IAssinaturaRepository, AssinaturaRepository>();
