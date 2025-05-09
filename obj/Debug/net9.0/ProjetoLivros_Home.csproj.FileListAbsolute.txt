@@ -231,7 +231,6 @@ C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.
 C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.ProjetoLivros_Home.props
 C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.ProjetoLivros_Home.props
 C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\ProjetoL.791E4C8F.Up2Date
 C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\ProjetoLivros_Home.dll
 C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\refint\ProjetoLivros_Home.dll
@@ -239,3 +238,4 @@ C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.
 C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\ProjetoLivros_Home.genruntimeconfig.cache
 C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\ref\ProjetoLivros_Home.dll
 C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\ProjetoLivros_Home.sourcelink.json
+C:\Users\DELL\source\repos\ProjetoLivros_Home\ProjetoLivros_Home\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

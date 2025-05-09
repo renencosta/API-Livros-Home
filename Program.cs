@@ -18,7 +18,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<LivrosContext>();
 
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
-//builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 //builder.Services.AddScoped<ILivroRepository, LivroRepository>();
 //builder.Services.AddScoped<IAssinaturaRepository, AssinaturaRepository>();
 //builder.Services.AddScoped<ITipoUsuarioRepository, TipoUsuarioRepository>();

@@ -21,7 +21,7 @@ namespace ProjetoLivros_Home.Controllers
 
         public async Task<IActionResult> ListarTodos()
         {
-            return Ok(_repository.ListarTodosAsync());
+            return Ok(_repository.ListarTodos());
         }
 
         [HttpPost]
@@ -46,6 +46,20 @@ namespace ProjetoLivros_Home.Controllers
         {
             _repository.Deletar(id);
             return Ok();
+        }
+
+        [HttpGet("{id}")]
+
+        public IActionResult ListarPorId(int id)
+        {
+            var categoria = _repository.ListarPorId(id);
+
+            if(categoria == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(categoria);
         }
     }
 }

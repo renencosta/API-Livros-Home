@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using ProjetoLivros_Home.Context;
 using ProjetoLivros_Home.Interfaces;
 using ProjetoLivros_Home.Models;
@@ -54,9 +55,16 @@ namespace ProjetoLivros_Home.Repositories
             return categoriaEncontrada;
         }
 
-        public async Task<List<Categoria>> ListarTodosAsync()
+        public Categoria? ListarPorId(int id)
         {
-            return await _context.Categorias.ToListAsync();
+            var categoriaEncontrada = _context.Categorias.Find(id);
+
+            return categoriaEncontrada;
+        }
+
+        public List<Categoria> ListarTodos()
+        {
+            return _context.Categorias.ToList();
         }
     }
 }

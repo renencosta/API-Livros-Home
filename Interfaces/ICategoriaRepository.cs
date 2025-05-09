@@ -4,12 +4,14 @@ namespace ProjetoLivros_Home.Interfaces
 {
     public interface ICategoriaRepository
     {
-        Task<List<Categoria>> ListarTodosAsync();
+        List<Categoria> ListarTodos();
 
         void Cadastrar(Categoria categoria);
 
         Categoria? Atualizar(int id, Categoria categoria);
 
         Categoria? Deletar(int id);
+
+        Categoria? ListarPorId(int id);
     }
 }
